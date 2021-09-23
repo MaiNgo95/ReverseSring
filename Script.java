@@ -11,7 +11,7 @@ function reverse(str){
    const totalItems = str.length-1; //get the number without 0 
    //loop through the string to get every element
 //put i = the last item in the list
-   for (let i = totalItems; i >= 0; i--){
+   for (let i = totalItems; i >= 0; i--){ //remember the condition of i --
       //add the item after loop into trhe list
       list.push(str[i]); //str[i] to get the element not the index
     
